@@ -1,0 +1,43 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   3435
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   3360
+   ScaleHeight     =   3435
+   ScaleWidth      =   3360
+   Begin VBCE.CommandButton Command1 
+      Height          =   615
+      Left            =   720
+      TabIndex        =   0
+      Top             =   960
+      Width           =   1815
+      _cx             =   3201
+      _cy             =   1085
+      Appearance      =   1
+      BackColor       =   12632256
+      Caption         =   "Command1"
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Style           =   0
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Explicit
+
+Private Sub Command1_Click()
+MsgBox "hello from eVB"
+End Sub
